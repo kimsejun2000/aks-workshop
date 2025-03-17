@@ -32,7 +32,7 @@ In this exercise, you will:
     # Create Azure Container Registry
     az acr create \
         --resource-group $RESOURCE_GROUP  \
-        --REGION_NAME  $REGION_NAME  \
+        --location  $REGION_NAME  \
         --name $ACR_NAME \
         --sku Standard
     ```
